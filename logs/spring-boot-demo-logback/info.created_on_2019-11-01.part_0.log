@@ -1,0 +1,19 @@
+2019-11-01 10:34:32,985 [main] WARN  [org.apache.hadoop.util.NativeCodeLoader] NativeCodeLoader.java:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-01 10:35:47,533 [main] WARN  [org.apache.hadoop.util.NativeCodeLoader] NativeCodeLoader.java:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-01 10:43:30,938 [main] WARN  [org.apache.hadoop.util.NativeCodeLoader] NativeCodeLoader.java:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-01 10:45:58,086 [main] WARN  [org.apache.hadoop.util.NativeCodeLoader] NativeCodeLoader.java:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-01 10:46:26,770 [main] WARN  [org.apache.hadoop.util.NativeCodeLoader] NativeCodeLoader.java:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-01 11:03:02,899 [main] WARN  [org.apache.hadoop.util.NativeCodeLoader] NativeCodeLoader.java:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-01 11:41:21,954 [main] WARN  [org.apache.hadoop.util.NativeCodeLoader] NativeCodeLoader.java:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-01 11:42:43,773 [main] WARN  [org.apache.hadoop.util.NativeCodeLoader] NativeCodeLoader.java:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-01 11:42:52,099 [main] INFO  [org.apache.hadoop.io.compress.CodecPool] CodecPool.java:151 - Got brand-new compressor [.deflate]
+2019-11-01 11:42:52,131 [main] INFO  [c.d.p.io.impl.SequenceFileReaderWriterFactory] SequenceFileReaderWriterFactory.java:87 - Created sequence file writer: file:/C:/Users/lxiang17/AppData/Local/Temp/test-topic/part-1/0_00000000000000000000.log
+2019-11-01 11:42:52,240 [main] INFO  [org.apache.hadoop.io.compress.CodecPool] CodecPool.java:179 - Got brand-new decompressor [.deflate]
+2019-11-01 11:44:12,032 [main] WARN  [org.apache.hadoop.util.NativeCodeLoader] NativeCodeLoader.java:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-01 11:44:13,532 [main] INFO  [org.apache.hadoop.io.compress.CodecPool] CodecPool.java:151 - Got brand-new compressor [.deflate]
+2019-11-01 11:44:13,548 [main] INFO  [c.d.p.io.impl.SequenceFileReaderWriterFactory] SequenceFileReaderWriterFactory.java:87 - Created sequence file writer: file:/C:/Users/lxiang17/AppData/Local/Temp/test-topic/part-1/0_00000000000000000000.log
+2019-11-01 11:44:13,579 [main] INFO  [org.apache.hadoop.io.compress.CodecPool] CodecPool.java:179 - Got brand-new decompressor [.deflate]
+2019-11-01 11:49:01,829 [main] WARN  [org.apache.hadoop.util.NativeCodeLoader] NativeCodeLoader.java:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-01 11:49:03,298 [main] INFO  [org.apache.hadoop.io.compress.CodecPool] CodecPool.java:151 - Got brand-new compressor [.deflate]
+2019-11-01 11:49:03,298 [main] INFO  [c.d.p.io.impl.SequenceFileReaderWriterFactory] SequenceFileReaderWriterFactory.java:87 - Created sequence file writer: file:/C:/Users/lxiang17/AppData/Local/Temp/test-topic/part-1/0_00000000000000000000.log
+2019-11-01 11:49:03,329 [main] INFO  [org.apache.hadoop.io.compress.CodecPool] CodecPool.java:179 - Got brand-new decompressor [.deflate]

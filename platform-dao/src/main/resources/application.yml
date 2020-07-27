@@ -1,0 +1,11 @@
+# base spring data source configuration
+spring:
+  datasource:
+      type: com.alibaba.druid.pool.DruidDataSource
+      url: jdbc:mysql://localhost:3306/aicore?characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: 1123
+
+#    database queries may be performed during view rendering, so set disable
+  jpa:
+    open-in-view: false

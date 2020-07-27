@@ -1,0 +1,2083 @@
+2019-10-30 15:03:26,095 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.demo.kafka.KafkaDemoApplicationTest], using SpringBootContextLoader
+2019-10-30 15:03:26,107 [main] INFO  [o.s.test.context.support.AbstractContextLoader] AbstractContextLoader.java:264 - Could not detect default resource locations for test class [com.demo.kafka.KafkaDemoApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-30 15:03:26,108 [main] INFO  [o.s.t.c.support.AnnotationConfigContextLoaderUtils] AnnotationConfigContextLoaderUtils.java:83 - Could not detect default configuration classes for test class [com.demo.kafka.KafkaDemoApplicationTest]: KafkaDemoApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-30 15:03:26,360 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] SpringBootTestContextBootstrapper.java:235 - Found @SpringBootConfiguration com.demo.kafka.KafkaDemoApplication for test class com.demo.kafka.KafkaDemoApplicationTest
+2019-10-30 15:03:26,520 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-30 15:03:26,557 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:177 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5f8e8a9d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5745ca0e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3ad83a66, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cce5371, org.springframework.test.context.transaction.TransactionalTestExecutionListener@17bffc17, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6e535154, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@15a34df2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5b38c1ec, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@338fc1d8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4722ef0c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@48e1f6c7]
+2019-10-30 15:16:17,270 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.demo.kafka.KafkaDemoApplicationTest], using SpringBootContextLoader
+2019-10-30 15:16:17,718 [main] INFO  [o.s.test.context.support.AbstractContextLoader] AbstractContextLoader.java:264 - Could not detect default resource locations for test class [com.demo.kafka.KafkaDemoApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-30 15:16:17,753 [main] INFO  [o.s.t.c.support.AnnotationConfigContextLoaderUtils] AnnotationConfigContextLoaderUtils.java:83 - Could not detect default configuration classes for test class [com.demo.kafka.KafkaDemoApplicationTest]: KafkaDemoApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-30 15:16:20,034 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] SpringBootTestContextBootstrapper.java:235 - Found @SpringBootConfiguration com.demo.kafka.KafkaDemoApplication for test class com.demo.kafka.KafkaDemoApplicationTest
+2019-10-30 15:16:21,241 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-30 15:16:21,388 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:177 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4d1bf319, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6f53b8a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5c80cf32, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7d900ecf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6f01b95f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4007f65e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1a245833, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@673fdbce, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5965d37, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7a5ceedd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4201c465]
+2019-10-30 15:22:00,641 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.demo.kafka.KafkaDemoApplicationTest], using SpringBootContextLoader
+2019-10-30 15:22:00,656 [main] INFO  [o.s.test.context.support.AbstractContextLoader] AbstractContextLoader.java:264 - Could not detect default resource locations for test class [com.demo.kafka.KafkaDemoApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-30 15:22:00,657 [main] INFO  [o.s.t.c.support.AnnotationConfigContextLoaderUtils] AnnotationConfigContextLoaderUtils.java:83 - Could not detect default configuration classes for test class [com.demo.kafka.KafkaDemoApplicationTest]: KafkaDemoApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-30 15:22:00,882 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] SpringBootTestContextBootstrapper.java:235 - Found @SpringBootConfiguration com.demo.kafka.KafkaDemoApplication for test class com.demo.kafka.KafkaDemoApplicationTest
+2019-10-30 15:22:01,157 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-30 15:22:01,218 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:177 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@8458f04, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@48075da3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68c9133c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a35b0f5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e2c3d18, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cb4893b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@cc43f62, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5b218417, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@645aa696, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6caf0677, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@413d1baf]
+2019-10-30 15:22:02,112 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] StartupInfoLogger.java:50 - Starting KafkaDemoApplicationTest on C07450 with PID 8332 (started by lxiang17 in D:\project\all-in-one)
+2019-10-30 15:22:02,113 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-10-30 15:22:03,073 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$34245acd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 15:22:03,921 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 15:22:04,309 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 15:22:04,310 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 15:22:06,426 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:08,531 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:10,637 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:12,940 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:15,344 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:18,258 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:21,267 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:24,376 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:27,391 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:30,498 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:33,406 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:36,514 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:39,322 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:42,430 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:45,637 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:22:54,616 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.demo.kafka.KafkaDemoApplicationTest], using SpringBootContextLoader
+2019-10-30 15:22:54,628 [main] INFO  [o.s.test.context.support.AbstractContextLoader] AbstractContextLoader.java:264 - Could not detect default resource locations for test class [com.demo.kafka.KafkaDemoApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-30 15:22:54,630 [main] INFO  [o.s.t.c.support.AnnotationConfigContextLoaderUtils] AnnotationConfigContextLoaderUtils.java:83 - Could not detect default configuration classes for test class [com.demo.kafka.KafkaDemoApplicationTest]: KafkaDemoApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-30 15:22:54,780 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] SpringBootTestContextBootstrapper.java:235 - Found @SpringBootConfiguration com.demo.kafka.KafkaDemoApplication for test class com.demo.kafka.KafkaDemoApplicationTest
+2019-10-30 15:22:55,126 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-30 15:22:55,153 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:177 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53d1b9b3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2cae1042, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@163d04ff, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7c209437, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2262b621, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7e928e2f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@f667fe, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@788fcafb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4febb875, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@25e2a451, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1698ee84]
+2019-10-30 15:22:55,685 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] StartupInfoLogger.java:50 - Starting KafkaDemoApplicationTest on C07450 with PID 12852 (started by lxiang17 in D:\project\all-in-one)
+2019-10-30 15:22:55,686 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-10-30 15:22:56,301 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$c322e6e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 15:22:57,250 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 15:22:57,664 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 15:22:57,665 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 15:22:59,782 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:01,887 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:03,990 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:06,295 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:08,800 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:11,711 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:14,823 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:17,728 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:20,836 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:23,843 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:26,951 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:30,159 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:33,367 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:36,373 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:39,579 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:42,684 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:45,792 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:48,898 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:51,826 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.demo.kafka.KafkaDemoApplicationTest], using SpringBootContextLoader
+2019-10-30 15:23:51,834 [main] INFO  [o.s.test.context.support.AbstractContextLoader] AbstractContextLoader.java:264 - Could not detect default resource locations for test class [com.demo.kafka.KafkaDemoApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-30 15:23:51,836 [main] INFO  [o.s.t.c.support.AnnotationConfigContextLoaderUtils] AnnotationConfigContextLoaderUtils.java:83 - Could not detect default configuration classes for test class [com.demo.kafka.KafkaDemoApplicationTest]: KafkaDemoApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-30 15:23:52,011 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:52,150 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] SpringBootTestContextBootstrapper.java:235 - Found @SpringBootConfiguration com.demo.kafka.KafkaDemoApplication for test class com.demo.kafka.KafkaDemoApplicationTest
+2019-10-30 15:23:52,432 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-30 15:23:52,468 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:177 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2313052e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2bd2b28e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@16746061, org.springframework.test.context.support.DirtiesContextTestExecutionListener@57fd91c9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6cfcd46d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@52045dbe, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@674658f7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5c8eee0f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@565b064f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@26425897, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@73163d48]
+2019-10-30 15:23:52,849 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] StartupInfoLogger.java:50 - Starting KafkaDemoApplicationTest on C07450 with PID 6572 (started by lxiang17 in D:\project\all-in-one)
+2019-10-30 15:23:52,849 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-10-30 15:23:53,448 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$d75d47e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 15:23:54,187 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 15:23:54,633 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 15:23:54,633 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 15:23:54,950 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:56,757 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:23:57,776 [main] WARN  [o.s.c.a.AnnotationConfigApplicationContext] AbstractApplicationContext.java:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is org.apache.kafka.common.errors.TimeoutException: Timeout expired while fetching topic metadata
+2019-10-30 15:23:57,843 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-30 15:23:58,229 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] StartupInfoLogger.java:50 - Starting KafkaDemoApplicationTest on C07450 with PID 12852 (started by lxiang17 in D:\project\all-in-one)
+2019-10-30 15:23:58,230 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-10-30 15:23:58,342 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$c322e6e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 15:23:58,497 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 15:23:58,508 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 15:23:58,508 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 15:23:58,862 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:00,512 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:00,966 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:02,615 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:03,271 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:04,819 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:05,686 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:07,025 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:08,394 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:09,432 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:11,408 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:12,439 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:14,331 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:15,649 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:17,441 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:18,653 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:20,450 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:21,862 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:23,457 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:24,969 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:26,666 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:28,178 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:29,873 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:31,287 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:33,087 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:34,200 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:35,996 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:37,313 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:39,206 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:40,222 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:42,314 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:43,434 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:45,426 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:46,343 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:48,636 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:49,450 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:51,745 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-1, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:52,659 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:54,748 [main] WARN  [o.s.c.a.AnnotationConfigApplicationContext] AbstractApplicationContext.java:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is org.apache.kafka.common.errors.TimeoutException: Timeout expired while fetching topic metadata
+2019-10-30 15:24:54,758 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-30 15:24:54,812 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] StartupInfoLogger.java:50 - Starting KafkaDemoApplicationTest on C07450 with PID 6572 (started by lxiang17 in D:\project\all-in-one)
+2019-10-30 15:24:54,812 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-10-30 15:24:54,920 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$d75d47e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 15:24:55,095 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 15:24:55,102 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 15:24:55,102 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 15:24:55,666 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:57,107 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:24:58,514 [main] WARN  [o.s.c.a.AnnotationConfigApplicationContext] AbstractApplicationContext.java:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is org.apache.kafka.common.errors.TimeoutException: Timeout expired while fetching topic metadata
+2019-10-30 15:24:58,519 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-30 15:24:59,210 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:01,415 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:03,620 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:06,127 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:09,133 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:12,242 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:15,148 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:18,058 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:21,164 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:24,370 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:27,278 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:30,388 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:33,396 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 15:25:36,304 [main] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node -1 could not be established. Broker may not be available.
+2019-10-30 16:11:33,453 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.demo.kafka.KafkaDemoApplicationTest], using SpringBootContextLoader
+2019-10-30 16:11:33,453 [main] INFO  [o.s.test.context.support.AbstractContextLoader] AbstractContextLoader.java:264 - Could not detect default resource locations for test class [com.demo.kafka.KafkaDemoApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-30 16:11:33,453 [main] INFO  [o.s.t.c.support.AnnotationConfigContextLoaderUtils] AnnotationConfigContextLoaderUtils.java:83 - Could not detect default configuration classes for test class [com.demo.kafka.KafkaDemoApplicationTest]: KafkaDemoApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-30 16:11:33,631 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] SpringBootTestContextBootstrapper.java:235 - Found @SpringBootConfiguration com.demo.kafka.KafkaDemoApplication for test class com.demo.kafka.KafkaDemoApplicationTest
+2019-10-30 16:11:33,803 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-30 16:11:33,819 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:177 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53d1b9b3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2cae1042, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@163d04ff, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7c209437, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2262b621, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7e928e2f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@f667fe, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@788fcafb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4febb875, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@25e2a451, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1698ee84]
+2019-10-30 16:11:34,225 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] StartupInfoLogger.java:50 - Starting KafkaDemoApplicationTest on C07450 with PID 13268 (started by lxiang17 in D:\project\all-in-one)
+2019-10-30 16:11:34,225 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-10-30 16:11:34,793 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$ad3e8aa5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 16:11:35,449 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:11:35,770 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:11:35,770 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:11:35,909 [main] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:11:35,988 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:11:35,988 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:11:35,988 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:11:36,003 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:11:36,034 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:11:36,050 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:11:36,050 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:11:36,050 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:11:36,050 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:11:36,050 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:11:36,066 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:11:36,066 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:11:36,066 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:11:36,066 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:11:36,066 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:11:36,081 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:11:36,081 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:11:36,081 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:11:36,081 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:11:36,081 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:11:36,081 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:11:36,081 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:11:36,081 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:11:36,097 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] StartupInfoLogger.java:59 - Started KafkaDemoApplicationTest in 2.216 seconds (JVM running for 4.005)
+2019-10-30 16:11:36,112 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:11:36,112 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:11:36,425 [main] INFO  [org.apache.kafka.clients.producer.ProducerConfig] AbstractConfig.java:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	offset.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-10-30 16:11:36,456 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:11:36,456 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:11:36,472 [kafka-producer-network-thread | producer-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:11:36,503 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:11:36,503 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:11:36,503 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:11:36,503 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:11:36,503 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:11:36,503 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:11:36,503 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:11:36,503 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:11:36,503 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:11:36,519 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:11:36,519 [Thread-2] INFO  [org.apache.kafka.clients.producer.KafkaProducer] KafkaProducer.java:1090 - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2019-10-30 16:12:09,694 [main] INFO  [com.demo.kafka.KafkaDemoApplication] StartupInfoLogger.java:50 - Starting KafkaDemoApplication on C07450 with PID 4548 (D:\project\all-in-one\target\classes started by lxiang17 in D:\project\all-in-one)
+2019-10-30 16:12:09,694 [main] INFO  [com.demo.kafka.KafkaDemoApplication] SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-10-30 16:12:10,162 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$3f8daeba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 16:12:10,625 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:10,688 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:10,688 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:10,828 [main] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:10,844 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:10,860 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:10,860 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:10,860 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:12:10,860 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:10,875 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:10,875 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:10,875 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:12:10,875 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:10,875 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:10,875 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:10,875 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:10,875 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:12:10,875 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:10,875 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:10,891 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:10,891 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:10,891 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:12:10,891 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:10,891 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:10,891 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:10,891 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:12:10,906 [main] INFO  [com.demo.kafka.KafkaDemoApplication] StartupInfoLogger.java:59 - Started KafkaDemoApplication in 1.765 seconds (JVM running for 3.141)
+2019-10-30 16:12:10,922 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:10,922 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:10,938 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:33,983 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.demo.kafka.KafkaDemoApplicationTest], using SpringBootContextLoader
+2019-10-30 16:12:33,999 [main] INFO  [o.s.test.context.support.AbstractContextLoader] AbstractContextLoader.java:264 - Could not detect default resource locations for test class [com.demo.kafka.KafkaDemoApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-30 16:12:33,999 [main] INFO  [o.s.t.c.support.AnnotationConfigContextLoaderUtils] AnnotationConfigContextLoaderUtils.java:83 - Could not detect default configuration classes for test class [com.demo.kafka.KafkaDemoApplicationTest]: KafkaDemoApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-30 16:12:34,233 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] SpringBootTestContextBootstrapper.java:235 - Found @SpringBootConfiguration com.demo.kafka.KafkaDemoApplication for test class com.demo.kafka.KafkaDemoApplicationTest
+2019-10-30 16:12:34,483 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-30 16:12:34,514 [main] INFO  [o.s.b.t.context.SpringBootTestContextBootstrapper] AbstractTestContextBootstrapper.java:177 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@606e4010, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@8458f04, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@48075da3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68c9133c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7a35b0f5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5e2c3d18, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2cb4893b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@cc43f62, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5b218417, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@645aa696, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6caf0677]
+2019-10-30 16:12:34,840 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] StartupInfoLogger.java:50 - Starting KafkaDemoApplicationTest on C07450 with PID 12844 (started by lxiang17 in D:\project\all-in-one)
+2019-10-30 16:12:34,840 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-10-30 16:12:35,246 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$26f02dde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 16:12:35,859 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:36,172 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:36,172 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:52,453 [main] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:52,484 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:52,484 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:52,484 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:52,484 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:12:52,500 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:52,500 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:52,500 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:52,500 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:52,500 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:12:52,516 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:52,516 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:52,516 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:52,516 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:52,516 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:12:52,516 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:52,531 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:52,531 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:52,531 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:52,531 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:12:52,534 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	offset.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-30 16:12:52,539 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:52,540 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:52,540 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+2019-10-30 16:12:52,547 [main] INFO  [com.demo.kafka.KafkaDemoApplicationTest] StartupInfoLogger.java:59 - Started KafkaDemoApplicationTest in 17.988 seconds (JVM running for 19.613)
+2019-10-30 16:12:52,563 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:52,563 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:52,688 [main] INFO  [org.apache.kafka.clients.producer.ProducerConfig] AbstractConfig.java:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	offset.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.offset.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-10-30 16:12:52,703 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:109 - Kafka version : 2.0.1
+2019-10-30 16:12:52,703 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:110 - Kafka commitId : fa14705e51bd2ce5
+2019-10-30 16:12:52,750 [kafka-producer-network-thread | producer-1] INFO  [org.apache.kafka.clients.Metadata] Metadata.java:285 - Cluster ID: UlbpF80OTQqwv2yt_9f_Pw
+2019-10-30 16:12:52,797 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:12:52,797 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:12:52,797 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:12:52,813 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:12:52,813 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:12:52,813 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:12:52,813 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:12:52,813 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:12:52,813 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:12:52,813 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:12:52,813 [Thread-2] INFO  [org.apache.kafka.clients.producer.KafkaProducer] KafkaProducer.java:1090 - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:677 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Discovered group coordinator C07450.grgit.com:9092 (id: 2147483647 rack: null)
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:677 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Discovered group coordinator C07450.grgit.com:9092 (id: 2147483647 rack: null)
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:677 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Discovered group coordinator C07450.grgit.com:9092 (id: 2147483647 rack: null)
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:677 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Discovered group coordinator C07450.grgit.com:9092 (id: 2147483647 rack: null)
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:677 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Discovered group coordinator C07450.grgit.com:9092 (id: 2147483647 rack: null)
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.a.k.c.consumer.internals.ConsumerCoordinator] ConsumerCoordinator.java:472 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Revoking previously assigned partitions []
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.a.k.c.consumer.internals.ConsumerCoordinator] ConsumerCoordinator.java:472 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Revoking previously assigned partitions []
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.s.kafka.listener.KafkaMessageListenerContainer] AbstractMessageListenerContainer.java:394 - partitions revoked: []
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.s.kafka.listener.KafkaMessageListenerContainer] AbstractMessageListenerContainer.java:394 - partitions revoked: []
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:509 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] (Re-)joining group
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:509 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] (Re-)joining group
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.a.k.c.consumer.internals.ConsumerCoordinator] ConsumerCoordinator.java:472 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Revoking previously assigned partitions []
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.a.k.c.consumer.internals.ConsumerCoordinator] ConsumerCoordinator.java:472 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Revoking previously assigned partitions []
+2019-10-30 16:13:00,814 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.a.k.c.consumer.internals.ConsumerCoordinator] ConsumerCoordinator.java:472 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Revoking previously assigned partitions []
+2019-10-30 16:13:00,830 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.s.kafka.listener.KafkaMessageListenerContainer] AbstractMessageListenerContainer.java:394 - partitions revoked: []
+2019-10-30 16:13:00,830 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.s.kafka.listener.KafkaMessageListenerContainer] AbstractMessageListenerContainer.java:394 - partitions revoked: []
+2019-10-30 16:13:00,830 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:509 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] (Re-)joining group
+2019-10-30 16:13:00,830 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:509 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] (Re-)joining group
+2019-10-30 16:13:00,830 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.s.kafka.listener.KafkaMessageListenerContainer] AbstractMessageListenerContainer.java:394 - partitions revoked: []
+2019-10-30 16:13:00,830 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:509 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] (Re-)joining group
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:473 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Successfully joined group with generation 1
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:473 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Successfully joined group with generation 1
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.a.k.c.consumer.internals.ConsumerCoordinator] ConsumerCoordinator.java:280 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Setting newly assigned partitions []
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.a.k.c.consumer.internals.ConsumerCoordinator] ConsumerCoordinator.java:280 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Setting newly assigned partitions []
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:473 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Successfully joined group with generation 1
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.a.k.c.consumer.internals.ConsumerCoordinator] ConsumerCoordinator.java:280 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Setting newly assigned partitions []
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:473 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Successfully joined group with generation 1
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:473 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Successfully joined group with generation 1
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.s.kafka.listener.KafkaMessageListenerContainer] AbstractMessageListenerContainer.java:399 - partitions assigned: []
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.s.kafka.listener.KafkaMessageListenerContainer] AbstractMessageListenerContainer.java:399 - partitions assigned: []
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.a.k.c.consumer.internals.ConsumerCoordinator] ConsumerCoordinator.java:280 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Setting newly assigned partitions []
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.s.kafka.listener.KafkaMessageListenerContainer] AbstractMessageListenerContainer.java:399 - partitions assigned: []
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.s.kafka.listener.KafkaMessageListenerContainer] AbstractMessageListenerContainer.java:399 - partitions assigned: []
+2019-10-30 16:13:00,892 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.a.k.c.consumer.internals.ConsumerCoordinator] ConsumerCoordinator.java:280 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Setting newly assigned partitions [test-0]
+2019-10-30 16:13:00,914 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.apache.kafka.clients.consumer.internals.Fetcher] Fetcher.java:601 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Resetting offset for partition test-0 to offset 2.
+2019-10-30 16:13:00,930 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.s.kafka.listener.KafkaMessageListenerContainer] AbstractMessageListenerContainer.java:399 - partitions assigned: [test-0]
+2019-10-30 16:15:07,577 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [com.demo.kafka.handler.KafkaHandler] KafkaHandler.java:18 - 收到消息: This is a message
+2019-10-30 16:15:37,186 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [com.demo.kafka.handler.KafkaHandler] KafkaHandler.java:18 - 收到消息: This is another message
+2019-10-30 16:16:18,764 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:729 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Group coordinator C07450.grgit.com:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2019-10-30 16:16:18,780 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:729 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Group coordinator C07450.grgit.com:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2019-10-30 16:16:18,780 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:729 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Group coordinator C07450.grgit.com:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2019-10-30 16:16:18,780 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [org.apache.kafka.clients.FetchSessionHandler] FetchSessionHandler.java:440 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Error sending fetch request (sessionId=70992740, epoch=366) to node 0: org.apache.kafka.common.errors.DisconnectException.
+2019-10-30 16:16:18,780 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:729 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Group coordinator C07450.grgit.com:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2019-10-30 16:16:18,780 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.a.k.c.consumer.internals.AbstractCoordinator] AbstractCoordinator.java:729 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Group coordinator C07450.grgit.com:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2019-10-30 16:16:20,888 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:20,888 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:20,903 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:20,903 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:20,903 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:23,044 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:23,044 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:23,059 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:23,059 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:23,075 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:25,262 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:25,262 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:25,309 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:25,341 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:25,341 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:27,669 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:27,716 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:27,747 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:27,779 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:27,904 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:30,513 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:30,538 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:30,686 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:30,701 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:30,717 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:33,429 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:33,700 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:33,732 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:33,732 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:33,810 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:36,404 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:36,700 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:36,825 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:36,919 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:36,919 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:39,494 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:39,809 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:40,039 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:40,133 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:40,196 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:42,481 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:42,988 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:43,129 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:43,160 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:43,410 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:45,622 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:46,059 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:46,059 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:46,263 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:46,560 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:48,529 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:48,997 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:49,107 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:49,482 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:49,794 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:51,723 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:52,217 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:52,311 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:52,653 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:52,856 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:54,669 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:55,293 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:55,434 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:55,638 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:56,012 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:57,639 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:58,248 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:58,701 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:58,920 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:16:59,154 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:00,887 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:01,360 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:01,625 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:02,172 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:02,375 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:03,791 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:04,338 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:04,885 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:05,244 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:05,479 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:06,653 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:07,387 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-4, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:08,122 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-3, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:08,169 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-2, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:08,325 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-6, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:09,686 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:671 - [Consumer clientId=consumer-5, groupId=spring-boot-demo] Connection to node 0 could not be established. Broker may not be available.
+2019-10-30 16:17:09,795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:17:09,795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:17:09,795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:17:09,795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:17:09,795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+2019-10-30 16:17:09,795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:17:09,795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:17:09,795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:17:09,795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped
+2019-10-30 16:17:09,795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] KafkaMessageListenerContainer.java:862 - Consumer stopped

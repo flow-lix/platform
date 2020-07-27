@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://D:/git-pro/ia/IntelligentAssistanceYinTong/ia-base-web/src/main/java/com/grg/web/auto/submit/finder/UploadFinderImpl.java" description="SubmitVoice submitVoice = uploadHandler.saveSubmit..." line="133" />
+    <bookmark url="jar://C:/Program Files/Java/jdk1.8.0_101/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java" description="final Class&lt;? extends Preloader&gt; preloaderClass," line="157" />
+    <bookmark url="jar://C:/Program Files/Java/jdk1.8.0_101/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java" description="theApp.init();" line="840" />
+    <bookmark url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/2.9.2/959837f029340cbe82b6df6307a9eddbf14bdd89/hadoop-mapreduce-client-core-2.9.2.jar!/org/apache/hadoop/mapreduce/Job.class" description="if (this.state == Job.JobState.DEFINE) {" line="0" />
+    <bookmark url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/2.9.2/959837f029340cbe82b6df6307a9eddbf14bdd89/hadoop-mapreduce-client-core-2.9.2.jar!/org/apache/hadoop/mapreduce/Job.class" description="if (this.state == Job.JobState.DEFINE) {" line="0" />
+    <bookmark url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/2.9.2/959837f029340cbe82b6df6307a9eddbf14bdd89/hadoop-mapreduce-client-core-2.9.2.jar!/org/apache/hadoop/mapreduce/Job.class" description="if (this.state == Job.JobState.DEFINE) {" line="0" />
+    <bookmark url="file://$PROJECT_DIR$/../BIG-DATA/sqoop-trunk/src/java/org/apache/sqoop/manager/MySQLManager.java" description="super.importTable(context);" line="123" />
+    <bookmark url="file://$PROJECT_DIR$/../BIG-DATA/sqoop-trunk/src/java/org/apache/sqoop/mapreduce/ExportJobBase.java" description="boolean success = runJob(job);" line="440" />
+    <bookmark url="file://$PROJECT_DIR$/../BIG-DATA/sqoop-trunk/src/java/org/apache/sqoop/manager/SqlManager.java" description="LOG.debug(&quot;Execute getColumnInfoRawQuery : &quot; + stm..." line="285" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69876445-7b61-4956-8e65-2ef381ab664a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/flow-dao/target/" />
+    <ignored path="$PROJECT_DIR$/flow-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/flow-commons/target/" />
+    <ignored path="$PROJECT_DIR$/flow-config/target/" />
+    <ignored path="$PROJECT_DIR$/flow-piggymetrics/target/" />
+    <ignored path="$PROJECT_DIR$/flow-etl/target/" />
+    <ignored path="$PROJECT_DIR$/flow-finger/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Time:</find>
+      <find>log4j-defaults.properties</find>
+      <find>收到消息</find>
+      <find>java.io.FileSystem</find>
+      <find>copyOf</find>
+      <find>check</find>
+      <find>twi</find>
+      <find>toString</find>
+      <find>DataSourceProperties</find>
+      <find>EmbeddedDatabaseType</find>
+      <find>syn</find>
+      <find>Topic:</find>
+      <find>unidal</find>
+      <find>BaseResultMap</find>
+      <find>com.grgbanking.aicloud.mapper</find>
+      <find>initialize</find>
+      <find>initialize(</find>
+      <find>log</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>FileSystem</replace>
+      <replace>learn.flow.finger.mapper</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/ApiRecordMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/AttendanceMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/DeviceLogMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/DeviceMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/FingerHistoryMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/FingerMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/FingerOriginalMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/FingerRecordMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/RecordFileMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/SampleUserMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/UploadFileMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/UserGroupMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/mybatis/mapper/UserGroupRelationMapper.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/service/impl/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/flow-finger/pom.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/service/impl/DeviceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/service/impl/FingerRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/service/impl/FingerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/service/impl/IndexServiceImpl.java" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/FlowFingerApplication.java" />
+        <option value="$PROJECT_DIR$/flow-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/redis/template/RedisRepository.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/RepositoryFactory.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/repository/RepositoryFactory.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/repository/Repository.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/repository/redis/RedisRepositoryFactory.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/repository/serializer/SerializerRepositoryFactory.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/repository/serializer/SerializerRepository.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/serializer/SerializerType.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/serializer/SerializerFactory.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/repository/redis/RedisRepository.java" />
+        <option value="$PROJECT_DIR$/flow-config/src/main/java/learn/flow/config/redis/redisAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/flow-config/src/main/java/learn/flow/config/redis/redisAutoConfigure.java" />
+        <option value="$PROJECT_DIR$/flow-config/src/main/java/learn/flow/config/redis/RedisAutoConfigure.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/repository/zookeeper/ZookeeperRepositoryFactory.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/repository/zookeeper/ZookeeperRepository.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/ZkMasterClient.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/AbstractZkClient.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/spring/CustomCronTrigger.java" />
+        <option value="$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/spring/SpringTriggerHelper.java" />
+        <option value="$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/spring/SpringTriggerHelper.java" />
+        <option value="$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/manager/AbstractConnectionManager.java" />
+        <option value="$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/FlowEtlApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flow-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flow-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="223" />
+    <option name="width" value="1704" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="learn.flow.dao" />
+      <recent name="com.demo.common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PROJECT\flow-all\flow-commons\src\main\java\learn\flow\commons" />
+      <recent name="D:\PROJECT\flow-all\flow-finger\src\main\resources" />
+      <recent name="D:\PROJECT\flow-all\flow-finger\src\main\java\learn\flow\finger" />
+      <recent name="D:\PROJECT\flow-all\flow-etl\src\main\resources" />
+      <recent name="D:\PROJECT\flow-all\flow-piggymetrics\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learn.flow.etl.log" />
+      <recent name="learn.flow.etl.config" />
+      <recent name="learn.flow.etl.context" />
+      <recent name="learn.flow.etl.manager" />
+      <recent name="com.demo.pinterest.moniter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PROJECT\flow-all\flow-etl\src\main\resources\mybatis" />
+      <recent name="D:\project\all-in-one\target" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FlowEtlApplication">
+    <configuration name="SpringTriggerHelper (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.flow.etl.spring.SpringTriggerHelper" />
+      <module name="flow-etl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.flow.etl.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTriggerHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.flow.commons.spring.SpringTriggerHelper" />
+      <module name="flow-commons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.flow.commons.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flow-etl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.flow.etl.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.flow.etl.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="learn.flow.etl.jdbc.JdbcTest" />
+      <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testSession" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flow-etl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.flow.etl.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.flow.etl.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="learn.flow.etl.mybatis.MybatisTest" />
+      <option name="METHOD_NAME" value="testSession" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testSession2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flow-etl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.flow.etl.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.flow.etl.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="learn.flow.etl.mybatis.MybatisTest" />
+      <option name="METHOD_NAME" value="testSession2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsiDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="all-in-one" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.asi.AsiDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsiDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="all-in-one" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.asi.demo.AsiDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="all-in-one" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flow-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="learn.flow.config.FlowConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowDaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flow-dao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="learn.flow.dao.FlowDaoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowEtlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flow-etl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="learn.flow.etl.FlowEtlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowFingerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flow-finger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="learn.flow.finger.FlowFingerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowPiggyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flow-piggymetrics" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="learn.flow.piggy.FlowPiggyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowPiggymetricsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flow-piggymetrics" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="learn.flow.flow.piggy.FlowPiggyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpringTriggerHelper" />
+      <item itemvalue="Application.SpringTriggerHelper (1)" />
+      <item itemvalue="JUnit.MybatisTest.testSession" />
+      <item itemvalue="JUnit.MybatisTest.testSession2" />
+      <item itemvalue="JUnit.JdbcTest.testQuery" />
+      <item itemvalue="Spring Boot.AsiDemoApplication" />
+      <item itemvalue="Spring Boot.AsiDemoApplication (1)" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.FlowConfigApplication" />
+      <item itemvalue="Spring Boot.FlowPiggymetricsApplication" />
+      <item itemvalue="Spring Boot.FlowPiggyApplication" />
+      <item itemvalue="Spring Boot.FlowDaoApplication" />
+      <item itemvalue="Spring Boot.FlowEtlApplication" />
+      <item itemvalue="Spring Boot.FlowFingerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringTriggerHelper (1)" />
+        <item itemvalue="Application.SpringTriggerHelper" />
+        <item itemvalue="JUnit.MybatisTest.testSession" />
+        <item itemvalue="JUnit.JdbcTest.testQuery" />
+        <item itemvalue="JUnit.MybatisTest.testSession2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69876445-7b61-4956-8e65-2ef381ab664a" name="Default Changelist" comment="" />
+      <created>1571124310317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571124310317</updated>
+      <workItem from="1571124312098" duration="2440000" />
+      <workItem from="1571384543878" duration="1213000" />
+      <workItem from="1571616555438" duration="1249000" />
+      <workItem from="1571963434431" duration="8940000" />
+      <workItem from="1572403179341" duration="12238000" />
+      <workItem from="1572481165409" duration="15294000" />
+      <workItem from="1572567418969" duration="16659000" />
+      <workItem from="1572847931246" duration="4488000" />
+      <workItem from="1572913135685" duration="19608000" />
+      <workItem from="1572999435313" duration="8059000" />
+      <workItem from="1573024186117" duration="5616000" />
+      <workItem from="1573433483024" duration="496000" />
+      <workItem from="1573437524481" duration="631000" />
+      <workItem from="1573456491651" duration="27000" />
+      <workItem from="1573521781002" duration="10256000" />
+      <workItem from="1574060856604" duration="2400000" />
+      <workItem from="1574122388503" duration="6882000" />
+      <workItem from="1574130827176" duration="11149000" />
+      <workItem from="1574149439891" duration="827000" />
+      <workItem from="1574152092761" duration="1918000" />
+      <workItem from="1574216773316" duration="17745000" />
+      <workItem from="1574296724786" duration="14289000" />
+      <workItem from="1574405686234" duration="8246000" />
+      <workItem from="1574825357900" duration="1439000" />
+      <workItem from="1575270212875" duration="3509000" />
+      <workItem from="1575331780069" duration="353000" />
+      <workItem from="1575878189542" duration="106000" />
+      <workItem from="1575950238329" duration="1461000" />
+      <workItem from="1577063429031" duration="83000" />
+      <workItem from="1577159368196" duration="2519000" />
+      <workItem from="1577256695531" duration="2885000" />
+      <workItem from="1578559765479" duration="708000" />
+      <workItem from="1578892282760" duration="5861000" />
+      <workItem from="1594967469182" duration="673000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MybatisTest_testSession - 2019.11.20 at 13h 44m 25s.xml">
+      <configuration name="MybatisTest.testSession" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testSession - 2019.11.20 at 13h 49m 26s.xml">
+      <configuration name="MybatisTest.testSession" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testSession - 2019.11.20 at 13h 51m 55s.xml">
+      <configuration name="MybatisTest.testSession" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testSession - 2019.11.20 at 13h 52m 14s.xml">
+      <configuration name="MybatisTest.testSession" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testSession2 - 2019.11.20 at 13h 53m 26s.xml">
+      <configuration name="MybatisTest.testSession2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testSession2 - 2019.11.20 at 13h 54m 06s.xml">
+      <configuration name="MybatisTest.testSession2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTest_testQuery - 2019.11.20 at 14h 27m 50s.xml">
+      <configuration name="JdbcTest.testQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTest_testQuery - 2019.11.20 at 14h 28m 42s.xml">
+      <configuration name="JdbcTest.testQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testSession - 2019.11.20 at 15h 14m 24s.xml">
+      <configuration name="MybatisTest.testSession" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testSession - 2019.11.21 at 10h 53m 18s.xml">
+      <configuration name="MybatisTest.testSession" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="190267000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="223" y="0" width="1704" height="1047" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18430656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.24651162" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.32894737" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32790446" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.12971175" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.23669924" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32951945" />
+      <window_info anchor="bottom" id="REST Client" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.18430656" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3295583" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="SciView" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/connector/ZookeeperConnector.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/tools/apache-maven-3.0.4/repo/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.class</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/tools/apache-maven-3.0.4/repo/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE-sources.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/flow-kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-piggymetrics/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-kafka/src/main/resources/logback-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/ZkMasterClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-etl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/apache-maven-3.0.4/repo/org/springframework/spring-context/5.1.10.RELEASE/spring-context-5.1.10.RELEASE.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskScheduler.class" />
+    <entry file="jar://D:/tools/apache-maven-3.0.4/repo/org/springframework/spring-context/5.1.10.RELEASE/spring-context-5.1.10.RELEASE.jar!/org/springframework/scheduling/concurrent/ReschedulingRunnable.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/spring/SpringTriggerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6993">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37584">
+          <caret line="1453" column="19" selection-start-line="1453" selection-start-column="19" selection-end-line="1453" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54054">
+          <caret line="2063" column="46" selection-start-line="2063" selection-start-column="46" selection-end-line="2063" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8721">
+          <caret line="357" column="9" selection-start-line="357" selection-start-column="9" selection-end-line="357" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14472">
+          <caret line="581" column="26" selection-start-line="581" selection-start-column="11" selection-end-line="581" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-commons/src/main/java/learn/flow/commons/repository/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-kafka/src/main/java/learn/flow/kafka/producer/LogMessageProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/apache-maven-3.0.4/repo/org/springframework/data/spring-data-redis/2.1.11.RELEASE/spring-data-redis-2.1.11.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisTxCommands.java" />
+    <entry file="file://$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/manager/AbstractSqlManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4752">
+          <caret line="207" column="22" lean-forward="true" selection-start-line="207" selection-start-column="22" selection-end-line="207" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11421">
+          <caret line="447" column="9" selection-start-line="447" selection-start-column="9" selection-end-line="447" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/FlowEtlApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="84" column="32" lean-forward="true" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3358#3359#0" expanded="true" />
+            <element signature="e#3415#3416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/manager/AbstractConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-kafka/src/main/java/learn/flow/kafka/enums/SerializerType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/manager/JdbcDrivers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/resultset/ResultSetWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/extract/AbstractExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/apache-maven-3.0.4/repo/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/extract/DatabaseExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/context/ExportJobContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/config/SqoopOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2187">
+          <folding>
+            <element signature="e#0#94899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-etl/src/main/java/learn/flow/etl/spring/CustomCronTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-piggymetrics/src/main/java/learn/flow/piggy/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-piggymetrics/src/main/java/learn/flow/piggy/config/MongoDBConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-piggymetrics/src/main/java/learn/flow/piggy/config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-config/src/main/java/learn/flow/config/controller/NacosConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-config/src/main/java/learn/flow/config/redis/RedisAutoConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-config/src/main/java/learn/flow/config/FlowConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-config/src/main/java/learn/flow/config/ZookeeperConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/controller/FingerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/util/DownloadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-finger/src/main/java/learn/flow/finger/util/WebSecurityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-dao/src/main/java/learn/flow/dao/util/MybatisGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding>
+            <element signature="e#2213#2351#0" expanded="true" />
+            <element signature="e#2350#2351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-dao/src/main/java/learn/flow/dao/mapper/SysUserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-dao/src/generatorData.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-dao/src/main/resources/datasource/data_source.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-dao/src/main/java/learn/flow/dao/controller/DruidStatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-dao/src/main/java/learn/flow/dao/datasource/DataSourceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-kafka/src/main/java/learn/flow/kafka/consuer/LogMessageConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-517">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all-in-one.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1269">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1431">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>all-in-one</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
