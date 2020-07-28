@@ -1,22 +1,32 @@
 package learn.platform.rpc.client;
 
+import com.alibaba.fastjson.JSON;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
+import io.netty.channel.Channel;
+import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
-import learn.platform.rpc.example.Hello;
-import learn.platform.rpc.protocol.RpcRequest;
+import io.netty.channel.SimpleChannelInboundHandler;
+import learn.platform.rpc.protocol.RpcResponse;
+import lombok.extern.slf4j.Slf4j;
 
-import java.util.Date;
-import java.util.UUID;
+import java.net.SocketAddress;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
 import java.util.logging.Logger;
 
-public class TestClientHandler extends ChannelInboundHandlerAdapter {
+@Slf4j
+public class TestClientHandler extends SimpleChannelInboundHandler<String> {
 
     private static final Logger logger = Logger
             .getLogger(TestClientHandler.class.getName());
 
     private final ByteBuf firstMessage;
+
+    private Channel channel;
+    private SocketAddress remoteAddress;
+
+    private ConcurrentMap<String, RpcFuture> pendingFutures = new ConcurrentHashMap<>();
 
     /**
      * Creates a client-side handler.
@@ -29,23 +39,14 @@ public class TestClientHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
-        RpcRequest request = new RpcRequest();
-        request.setRequestId(UUID.randomUUID().toString());
-        request.setClassName(Hello.class.getName());
-        request.setMethodName("say");
-        request.setMethodParamsType(new Class[] {String.class});
-        request.setMethodParams(new Object[]{"person"});
-        ctx.writeAndFlush(request);
     }
 
     @Override
-    public void channelRead(ChannelHandlerContext ctx, Object msg)
-            throws Exception {
-        ByteBuf buf = (ByteBuf) msg;
-        byte[] req = new byte[buf.readableBytes()];
-        buf.readBytes(req);
-        String body = new String(req, "UTF-8");
-        System.out.println("Now is : " + body);
+    protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
+        RpcResponse response = JSON.parseObject(msg, RpcResponse.class);
+        if (response.isSuccess()) {
+            TestClient.receiveResponse(response);
+        }
     }
 
     @Override
@@ -54,5 +55,9 @@ public class TestClientHandler extends ChannelInboundHandlerAdapter {
         logger.warning("Unexpected exception from downstream : "
                 + cause.getMessage());
         ctx.close();
+    }
+
+    public void close() {
+        channel.writeAndFlush(Unpooled.EMPTY_BUFFER).addListener(ChannelFutureListener.CLOSE);
     }
 }

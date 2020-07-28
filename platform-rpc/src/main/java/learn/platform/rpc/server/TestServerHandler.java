@@ -1,24 +1,24 @@
 package learn.platform.rpc.server;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.Unpooled;
+import com.alibaba.fastjson.JSON;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.SimpleChannelInboundHandler;
+import learn.platform.rpc.protocol.RpcRequest;
+import learn.platform.rpc.protocol.RpcResponse;
+import lombok.extern.slf4j.Slf4j;
 
-public class TestServerHandler extends ChannelInboundHandlerAdapter {
+@Slf4j
+public class TestServerHandler extends SimpleChannelInboundHandler<String> {
 
     @Override
-    public void channelRead(ChannelHandlerContext ctx, Object msg)
-            throws Exception {
-        ByteBuf buf = (ByteBuf) msg;
-        byte[] req = new byte[buf.readableBytes()];
-        buf.readBytes(req);
-        String body = new String(req, "UTF-8");
-        System.out.println("The time server receive order : " + body);
-        String currentTime = "QUERY TIME ORDER".equalsIgnoreCase(body) ? new java.util.Date(
-                System.currentTimeMillis()).toString() : "BAD ORDER";
-        ByteBuf resp = Unpooled.copiedBuffer(currentTime.getBytes());
-        ctx.write(resp);
+    protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
+        log.info("2.收到远程调用请求");
+        RpcRequest request = JSON.parseObject(msg, RpcRequest.class);
+        RpcResponse response = TestServer.processRequest(request);
+
+        log.info("3.发送方法调用结果: {}", response);
+        ctx.writeAndFlush(JSON.toJSONString(response))
+                .addListener(future -> log.info("发送成功!"));
     }
 
     @Override
