@@ -9,6 +9,7 @@
         <module>platform-kafka</module>
         <module>platform-elastic</module>
         <module>platform-rpc</module>
+        <module>platform-grpc</module>
     </modules>
 
     <parent>
