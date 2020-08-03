@@ -16,7 +16,7 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.logging.Logger;
 
 @Slf4j
-public class TestClientHandler extends SimpleChannelInboundHandler<String> {
+public class TestClientHandler extends SimpleChannelInboundHandler<RpcResponse> {
 
     private static final Logger logger = Logger
             .getLogger(TestClientHandler.class.getName());
@@ -42,8 +42,7 @@ public class TestClientHandler extends SimpleChannelInboundHandler<String> {
     }
 
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
-        RpcResponse response = JSON.parseObject(msg, RpcResponse.class);
+    protected void channelRead0(ChannelHandlerContext ctx, RpcResponse response) throws Exception {
         if (response.isSuccess()) {
             TestClient.receiveResponse(response);
         }

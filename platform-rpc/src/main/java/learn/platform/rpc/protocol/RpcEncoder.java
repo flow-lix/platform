@@ -7,6 +7,9 @@ import learn.platform.rpc.serializer.ProtoSerializer;
 
 public class RpcEncoder extends MessageToByteEncoder {
 
+    /**
+     * Request
+     */
     private final Class<?> genericClass;
 
     public RpcEncoder(Class<?> genericClass) {
@@ -15,6 +18,7 @@ public class RpcEncoder extends MessageToByteEncoder {
 
     @Override
     protected void encode(ChannelHandlerContext channelHandlerContext, Object message, ByteBuf byteBuf) throws Exception {
+        // request
         if (genericClass.isInstance(message)) {
             byte[] body = ProtoSerializer.serializer(message);
             byteBuf.writeInt(body.length);

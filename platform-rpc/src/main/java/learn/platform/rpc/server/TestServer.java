@@ -1,25 +1,25 @@
 package learn.platform.rpc.server;
 
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.handler.codec.string.StringDecoder;
-import io.netty.handler.codec.string.StringEncoder;
+import learn.platform.registry.zk.ZookeeperRegistryService;
 import learn.platform.rpc.example.Hello;
 import learn.platform.rpc.example.HelloServiceImpl;
+import learn.platform.rpc.protocol.RpcDecoder;
+import learn.platform.rpc.protocol.RpcEncoder;
 import learn.platform.rpc.protocol.RpcRequest;
 import learn.platform.rpc.protocol.RpcResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cglib.reflect.FastClass;
 
 import java.lang.reflect.InvocationTargetException;
+import java.net.InetSocketAddress;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
@@ -65,6 +65,8 @@ public class TestServer {
             // 绑定端口，同步等待成功
             ChannelFuture f = b.bind(port).sync();
 
+            ZookeeperRegistryService.getInstance().register(new InetSocketAddress("localhost", 8000));
+            // 服务注册到zookeeper
             registerBean(new HelloServiceImpl());
             // 等待服务端监听端口关闭
             f.channel().closeFuture().sync();
@@ -79,8 +81,8 @@ public class TestServer {
         @Override
         protected void initChannel(SocketChannel arg0) throws Exception {
             arg0.pipeline()
-                    .addLast(new StringDecoder())
-                    .addLast(new StringEncoder())
+                    .addLast(new RpcDecoder(RpcRequest.class))
+                    .addLast(new RpcEncoder(RpcResponse.class))
                     .addLast(new TestServerHandler());
         }
     }

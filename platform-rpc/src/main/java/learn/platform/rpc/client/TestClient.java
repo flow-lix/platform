@@ -11,13 +11,17 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
+import learn.platform.registry.zk.ZookeeperRegistryService;
 import learn.platform.rpc.client.proxy.RpcRequestProxy;
 import learn.platform.rpc.example.Hello;
+import learn.platform.rpc.protocol.RpcDecoder;
+import learn.platform.rpc.protocol.RpcEncoder;
 import learn.platform.rpc.protocol.RpcRequest;
 import learn.platform.rpc.protocol.RpcResponse;
 import lombok.extern.slf4j.Slf4j;
 
 import java.lang.reflect.Proxy;
+import java.net.InetSocketAddress;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
@@ -51,13 +55,15 @@ public class TestClient {
         RpcFuture rpcFuture = new RpcFuture(request);
         pendingRequest.put(request.getRequestId(), rpcFuture);
 
-        getNewChannel(8000, "localhost").writeAndFlush(JSON.toJSONString(request))
+        InetSocketAddress address = ZookeeperRegistryService.getInstance().findRegisteredAddress();
+        // 路由， 负载均衡
+        getNewChannel(address).writeAndFlush(request)
                 .addListener(future -> {
         });
         return rpcFuture.get();
     }
 
-    public Channel getNewChannel(int port, String host) throws InterruptedException {
+    public Channel getNewChannel(InetSocketAddress socketAddress) throws InterruptedException {
         Bootstrap b = new Bootstrap();
         b.group(new NioEventLoopGroup()).channel(NioSocketChannel.class)
                 .option(ChannelOption.TCP_NODELAY, true)
@@ -66,13 +72,13 @@ public class TestClient {
                     public void initChannel(SocketChannel ch)
                             throws Exception {
                         ch.pipeline()
-                                .addLast(new StringDecoder())
-                                .addLast(new StringEncoder())
+                                .addLast(new RpcEncoder(RpcRequest.class))
+                                .addLast(new RpcDecoder(RpcResponse.class))
                                 .addLast(new TestClientHandler());
                     }
                 });
         // 发起异步连接操作
-        ChannelFuture f = b.connect(host, port).sync();
+        ChannelFuture f = b.connect(socketAddress).sync();
         return f.channel();
     }
 

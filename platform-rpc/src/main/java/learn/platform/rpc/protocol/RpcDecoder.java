@@ -11,6 +11,9 @@ import java.util.List;
 @Slf4j
 public class RpcDecoder extends ByteToMessageDecoder {
 
+    /**
+     * Response
+     */
     private final Class<?> genericClass;
 
     public RpcDecoder(Class<?> genericClass) {
@@ -30,8 +33,7 @@ public class RpcDecoder extends ByteToMessageDecoder {
         byte[] body = new byte[bodyLength];
         in.readBytes(body);
 
-        ProtoSerializer.deserializer(body, genericClass);
+        list.add(ProtoSerializer.deserializer(body, genericClass));
     }
-
 
 }

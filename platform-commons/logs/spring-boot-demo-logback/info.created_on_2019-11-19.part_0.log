@@ -16,4 +16,4 @@
 2019-11-19 08:45:44,003 [main] INFO  [org.apache.zookeeper.ZooKeeper] Environment.java:109 - Client environment:os.memory.free=102MB
 2019-11-19 08:45:44,003 [main] INFO  [org.apache.zookeeper.ZooKeeper] Environment.java:109 - Client environment:os.memory.max=1797MB
 2019-11-19 08:45:44,003 [main] INFO  [org.apache.zookeeper.ZooKeeper] Environment.java:109 - Client environment:os.memory.total=123MB
-2019-11-19 08:45:44,040 [main] INFO  [learn.flow.commons.connector.ZookeeperConnector] ZookeeperConnector.java:60 - New committed offset group path: /chroot/consumers/kafka-group/offsets
+2019-11-19 08:45:44,040 [main] INFO  [ZookeeperConnector] ZookeeperConnector.java:60 - New committed offset group path: /chroot/consumers/kafka-group/offsets
