@@ -1,7 +1,8 @@
 package learn.platform.registry.support;
 
 import learn.platform.commons.Resource;
-import learn.platform.registry.RegistryService;
+import learn.platform.commons.url.UrlResource;
+import learn.platform.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,10 +13,12 @@ import java.net.InetSocketAddress;
 import java.util.List;
 import java.util.Objects;
 import java.util.Properties;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 import static learn.platform.commons.constants.CommonConstants.APPLICATION_KEY;
 
-public class AbstractRegistry implements RegistryService {
+public class AbstractRegistry implements Registry {
 
     protected static final Logger LOGGER = LoggerFactory.getLogger(AbstractRegistry.class);
 
@@ -24,6 +27,8 @@ public class AbstractRegistry implements RegistryService {
     private File backupFile;
 
     private Properties properties;
+
+    private Set<Resource> registered = ConcurrentHashMap.newKeySet();
 
     public AbstractRegistry(Resource resource) {
         setResource(resource);
@@ -59,8 +64,10 @@ public class AbstractRegistry implements RegistryService {
     }
 
     @Override
-    public void register(InetSocketAddress registerAddress) {
-
+    public void register(Resource resource) {
+        Objects.requireNonNull(resource, "Registry resource is null!");
+        LOGGER.info("Register resource: {}", resource);
+        registered.add(resource);
     }
 
     @Override

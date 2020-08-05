@@ -1,8 +1,7 @@
 package learn.platform.remoting.zookeeper.support;
 
-import com.google.common.base.Strings;
-import learn.platform.commons.Resource;
 import learn.platform.commons.constants.CommonConstants;
+import learn.platform.commons.url.UrlResource;
 import learn.platform.remoting.zookeeper.StateType;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
@@ -14,7 +13,6 @@ import org.apache.zookeeper.KeeperException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.List;
@@ -28,13 +26,13 @@ public class CuratorZookeeperClient extends AbstractZookeeperClient {
 
     private final CuratorFramework zkClient;
 
-    public CuratorZookeeperClient(Resource resource) {
+    public CuratorZookeeperClient(UrlResource resource) {
         super(resource);
         try {
             int timeout = resource.getParameter(CommonConstants.TIMEOUT_KEY, DEFAULT_CONNECTION_TIMEOUT_MS);
             int sessionExpireMs = resource.getParameter(ZK_SESSION_EXPIRE_KEY, DEFAULT_SESSION_TIMEOUT_MS);
             CuratorFrameworkFactory.Builder builder = CuratorFrameworkFactory.builder().
-                    connectString(resource.getClusterAddress())
+                    connectString(resource.getBackupAddress())
                     .retryPolicy(new RetryNTimes(1, 1000))
                     .connectionTimeoutMs(timeout)
                     .sessionTimeoutMs(sessionExpireMs);

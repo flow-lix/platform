@@ -27,4 +27,6 @@ public interface ZookeeperClient {
     boolean isConnected();
 
     String getContent(String path);
+
+    void addStateListener(StateListener stateListener);
 }

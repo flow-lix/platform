@@ -1,6 +1,7 @@
 package learn.platform.remoting.zookeeper.support;
 
 import learn.platform.commons.Resource;
+import learn.platform.commons.url.UrlResource;
 import learn.platform.remoting.zookeeper.ZookeeperClient;
 import learn.platform.remoting.zookeeper.ZookeeperTransporter;
 import org.slf4j.Logger;
@@ -20,7 +21,7 @@ public abstract class AbstractZookeeperTransporter implements ZookeeperTransport
     private final ConcurrentMap<String, ZookeeperClient> zookeeperClientMap = new ConcurrentHashMap<>();
 
     @Override
-    public ZookeeperClient connect(Resource resource) {
+    public ZookeeperClient connect(UrlResource resource) {
         String identifyId = resource.getIdentifyId();
         ZookeeperClient zookeeperClient = fetchZookeeperClientCache(identifyId);
         if (zookeeperClient != null) {
@@ -37,7 +38,7 @@ public abstract class AbstractZookeeperTransporter implements ZookeeperTransport
         return zookeeperClient;
     }
 
-    protected abstract ZookeeperClient createZookeeperClient(Resource resource);
+    protected abstract ZookeeperClient createZookeeperClient(UrlResource resource);
 
     /**
      * 获取客户端连接

@@ -1,9 +1,5 @@
 package learn.platform.remoting.zookeeper;
 
-import learn.platform.remoting.zookeeper.support.CuratorZookeeperClient;
-import org.apache.curator.framework.CuratorFramework;
-import org.apache.curator.framework.state.ConnectionState;
-
 /**
  * Zookeeper状态类型
  */

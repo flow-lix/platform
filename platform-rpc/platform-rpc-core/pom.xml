@@ -3,38 +3,44 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>platform-registry</artifactId>
+        <artifactId>platform-rpc</artifactId>
         <groupId>learn.platform</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>platform-registry-zk</artifactId>
+    <artifactId>platform.rpc.core</artifactId>
+
     <dependencies>
         <dependency>
-            <groupId>learn.platform</groupId>
-            <artifactId>platform-registry-api</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.50.Final</version>
+        </dependency>
+
+        <!-- Protostuff -->
+        <dependency>
+            <groupId>io.protostuff</groupId>
+            <artifactId>protostuff-core</artifactId>
+            <version>1.7.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.protostuff</groupId>
+            <artifactId>protostuff-runtime</artifactId>
+            <version>1.7.2</version>
         </dependency>
 
         <dependency>
-            <groupId>learn.platform</groupId>
-            <artifactId>platform-commons</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.72</version>
         </dependency>
         <dependency>
             <groupId>learn.platform</groupId>
-            <artifactId>platform-remoting-zookeeper</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>learn.platform</groupId>
-            <artifactId>platform-rpc-api</artifactId>
+            <artifactId>platform-registry-zk</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
 
 </project>

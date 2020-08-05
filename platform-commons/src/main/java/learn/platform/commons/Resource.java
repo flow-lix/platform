@@ -25,6 +25,8 @@ public interface Resource {
      */
     int getParameter(String key, int defaultVal);
 
+    String getParameter(String key, String defaultVal);
+
     /**
      * 查询认证信息
      * @return

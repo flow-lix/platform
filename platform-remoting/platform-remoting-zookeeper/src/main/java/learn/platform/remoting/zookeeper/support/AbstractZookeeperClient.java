@@ -31,6 +31,11 @@ public abstract class AbstractZookeeperClient implements ZookeeperClient {
     }
 
     @Override
+    public void addStateListener(StateListener stateListener) {
+        this.sessionListeners.add(stateListener);
+    }
+
+    @Override
     public abstract void create(String path, boolean persistent);
 
     protected abstract boolean checkExists(String path);
@@ -39,7 +44,6 @@ public abstract class AbstractZookeeperClient implements ZookeeperClient {
     public void delete(String path) {
 
     }
-
 
     public void stateChanged(StateType stateType) {
         for (StateListener listener : getSessionListeners()) {

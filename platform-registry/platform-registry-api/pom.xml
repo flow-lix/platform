@@ -17,5 +17,11 @@
             <artifactId>platform-commons</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>learn.platform</groupId>
+            <artifactId>platform-remoting-zookeeper</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 </project>
