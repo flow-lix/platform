@@ -1,6 +1,7 @@
 package learn.platform.registry.zk;
 
 import learn.platform.commons.Resource;
+import learn.platform.commons.url.UrlResource;
 import learn.platform.registry.NotifyListener;
 import learn.platform.registry.support.FailbackRegistry;
 import learn.platform.remoting.zk.ZookeeperClient;
@@ -16,6 +17,8 @@ import static learn.platform.commons.constants.RegistryConstants.DEFAULT_CATEGOR
 public class ZookeeperRegistry extends FailbackRegistry {
 
     public static final Logger LOGGER = LoggerFactory.getLogger(ZookeeperRegistry.class);
+
+    private static final String root = "/root/";
 
     private final ZookeeperClient zkClient;
 
@@ -41,7 +44,7 @@ public class ZookeeperRegistry extends FailbackRegistry {
 
     private String toUrlPath(Resource resource) {
         String cate = resource.getParameter(CATEGORY_KEY, DEFAULT_CATEGORY);
-        return "/root" + cate + PATH_SEPARATOR + resource.toString();
+        return root + cate + PATH_SEPARATOR + resource.toString();
     }
 
     @Override
@@ -64,6 +67,21 @@ public class ZookeeperRegistry extends FailbackRegistry {
 
     @Override
     protected void doSubscriber(Resource resource, NotifyListener listener) {
-
+        String path = toCategoriesPath(resource);
+        zkClient.create(path, false);
     }
+
+    private String toCategoriesPath(Resource resource) {
+        String categories;
+        categories = resource.getParameter(CATEGORY_KEY, DEFAULT_CATEGORY);
+
+        return toServicePath(resource) + PATH_SEPARATOR + categories;
+    }
+
+    private String toServicePath(Resource resource) {
+        return root + resource.getInterfaceName();
+    }
+
+
+
 }

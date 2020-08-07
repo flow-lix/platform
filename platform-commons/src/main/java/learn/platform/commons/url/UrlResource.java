@@ -96,4 +96,9 @@ public class UrlResource implements Resource, Serializable {
             this.parameters.putAll(parameters);
         }
     }
+
+    @Override
+    public String getInterfaceName() {
+        return password;
+    }
 }

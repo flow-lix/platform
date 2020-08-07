@@ -9,6 +9,8 @@ public interface Resource {
      * @return
      */
     String getIdentifyId();
+
+    String getInterfaceName();
     /**
      * 查询集群地址
      * @return 地址列表
