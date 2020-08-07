@@ -9,7 +9,7 @@ import java.util.List;
  * 注册服务接口
  * @param <T> Child监听器
  */
-public interface Registry<T> {
+public interface Registry {
 
     /**
      * 注册服务
@@ -25,17 +25,17 @@ public interface Registry<T> {
 
     /**
      * 订阅服务
-     * @param cluster
+     * @param resource
      * @param listener
      */
-    void subscribe(String cluster, T listener);
+    void subscribe(Resource resource, NotifyListener listener);
 
     /**
      * 取消订阅
-     * @param cluster
+     * @param resource
      * @param listener
      */
-    void unsubscribe(String cluster, T listener);
+    void unsubscribe(Resource resource, NotifyListener listener);
 
     /**
      * 查询服务列表

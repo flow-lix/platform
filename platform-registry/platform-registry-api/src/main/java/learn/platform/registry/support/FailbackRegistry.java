@@ -3,6 +3,7 @@ package learn.platform.registry.support;
 import learn.platform.commons.Resource;
 import learn.platform.commons.thread.NamedThreadFactory;
 import learn.platform.commons.timer.HashedWheelTimer;
+import learn.platform.registry.NotifyListener;
 
 import java.util.concurrent.TimeUnit;
 
@@ -35,11 +36,21 @@ public abstract class FailbackRegistry extends AbstractRegistry {
 //        addFailedRegistered(resource);
     }
 
+    @Override
+    public void subscribe(Resource resource, NotifyListener listener) {
+        super.subscribe(resource, listener);
+        try {
+            doSubscriber(resource, listener);
+        } catch (Exception e) {
+            LOGGER.error("Failed to subscribe {}, cause: {}", resource, e.getMessage(), e);
+        }
+    }
+
     protected abstract void doRegister(Resource resource);
 
     protected abstract void doUnregister(Resource resource);
 
-//    protected abstract void doSubscriber(Resource resource, )
+    protected abstract void doSubscriber(Resource resource, NotifyListener listener);
 
     @Override
     public String getServiceGroup(String key) {

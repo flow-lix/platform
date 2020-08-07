@@ -4,5 +4,5 @@ import learn.platform.commons.Resource;
 
 public interface RegistryFactory {
 
-    Registry getRegistry(Resource resource);
+    Registry createRegistry(Resource resource);
 }

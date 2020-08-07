@@ -9,7 +9,7 @@
 //import org.apache.support.framework.recipes.locks.InterProcessMutex;
 //import org.apache.support.retry.BoundedExponentialBackoffRetry;
 //import org.apache.kafka.common.TopicPartition;
-//import org.apache.zookeeper.CreateMode;
+//import org.apache.zk.CreateMode;
 //
 //import java.util.*;
 //
@@ -78,7 +78,7 @@
 //                    .forPath(offsetPath);
 //            return Long.parseLong(new String(data));
 //        } catch (Exception e) {
-//            log.warn("path {} does not exist in zookeeper", offsetPath);
+//            log.warn("path {} does not exist in zk", offsetPath);
 //            return -1;
 //        }
 //    }
@@ -138,37 +138,37 @@
 ////
 ////    public void setCommittedOffsetCount(TopicPartition topicPartition, long count)
 ////            throws Exception {
-////        ZooKeeper zookeeper = mZookeeperClient.get();
+////        ZooKeeper zk = mZookeeperClient.get();
 ////        String offsetPath = getCommittedOffsetPartitionPath(topicPartition);
-////        LOG.info("creating missing parents for zookeeper path {}", offsetPath);
+////        LOG.info("creating missing parents for zk path {}", offsetPath);
 ////        createMissingParents(offsetPath);
 ////        byte[] data = Long.toString(count).getBytes();
 ////        try {
-////            LOG.info("setting zookeeper path {} value {}", offsetPath, count);
+////            LOG.info("setting zk path {} value {}", offsetPath, count);
 ////            // -1 matches any version
-////            zookeeper.setData(offsetPath, data, -1);
+////            zk.setData(offsetPath, data, -1);
 ////        } catch (KeeperException.NoNodeException exception) {
-////            zookeeper.create(offsetPath, data, ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+////            zk.create(offsetPath, data, ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
 ////        }
 ////    }
 ////
 ////    public void deleteCommittedOffsetTopicCount(String topic) throws Exception {
-////        ZooKeeper zookeeper = mZookeeperClient.get();
+////        ZooKeeper zk = mZookeeperClient.get();
 ////        List<Integer> partitions = getCommittedOffsetPartitions(topic);
 ////        for (Integer partition : partitions) {
 ////            TopicPartition topicPartition = new TopicPartition(topic, partition);
 ////            String offsetPath = getCommittedOffsetPartitionPath(topicPartition);
 ////            LOG.info("deleting path {}", offsetPath);
-////            zookeeper.delete(offsetPath, -1);
+////            zk.delete(offsetPath, -1);
 ////        }
 ////    }
 ////
 ////    public void deleteCommittedOffsetPartitionCount(TopicPartition topicPartition)
 ////            throws Exception {
 ////        String offsetPath = getCommittedOffsetPartitionPath(topicPartition);
-////        ZooKeeper zookeeper = mZookeeperClient.get();
+////        ZooKeeper zk = mZookeeperClient.get();
 ////        LOG.info("deleting path {}", offsetPath);
-////        zookeeper.delete(offsetPath, -1);
+////        zk.delete(offsetPath, -1);
 ////    }
 ////
 ////    protected void setConfig(SecorConfig config) {

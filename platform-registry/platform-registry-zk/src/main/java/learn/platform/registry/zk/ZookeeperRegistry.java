@@ -1,10 +1,10 @@
 package learn.platform.registry.zk;
 
 import learn.platform.commons.Resource;
-import learn.platform.commons.url.UrlResource;
+import learn.platform.registry.NotifyListener;
 import learn.platform.registry.support.FailbackRegistry;
-import learn.platform.remoting.zookeeper.ZookeeperClient;
-import learn.platform.remoting.zookeeper.ZookeeperTransporter;
+import learn.platform.remoting.zk.ZookeeperClient;
+import learn.platform.remoting.zk.ZookeeperTransporter;
 import learn.platform.rpc.exception.RpcException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +19,7 @@ public class ZookeeperRegistry extends FailbackRegistry {
 
     private final ZookeeperClient zkClient;
 
-    public ZookeeperRegistry(UrlResource resource, ZookeeperTransporter transporter) {
+    public ZookeeperRegistry(Resource resource, ZookeeperTransporter transporter) {
         super(resource);
 
         zkClient = transporter.connect(resource);
@@ -49,7 +49,7 @@ public class ZookeeperRegistry extends FailbackRegistry {
         try {
             zkClient.create(toUrlPath(resource), true);
         } catch (Exception e) {
-            throw new RpcException("Failed to register " + resource + " to zookeeper，cause: " + e.getMessage(), e);
+            throw new RpcException("Failed to register " + resource + " to zk，cause: " + e.getMessage(), e);
         }
     }
 
@@ -58,12 +58,12 @@ public class ZookeeperRegistry extends FailbackRegistry {
         try {
             zkClient.delete(toUrlPath(resource));
         } catch (Exception e) {
-            throw new RpcException("Failed to unregister " + resource + " to zookeeper，cause: " + e.getMessage(), e);
+            throw new RpcException("Failed to unregister " + resource + " to zk，cause: " + e.getMessage(), e);
         }
     }
 
     @Override
-    protected void doSubscriber(Resource resource) {
+    protected void doSubscriber(Resource resource, NotifyListener listener) {
 
     }
 }

@@ -1,4 +1,4 @@
-package learn.platform.remoting.zookeeper;
+package learn.platform.remoting.zk;
 
 import java.util.List;
 
@@ -10,6 +10,14 @@ public interface ZookeeperClient {
      * @param ephemeral 是否是临时节点
      */
     void create(String path, boolean ephemeral);
+
+    /**
+     * 创建节点并初始化数据
+     * @param path 节点路径
+     * @param content 初始化数据
+     * @param epemeral 是否临时节点
+     */
+    void create(String path, String content, boolean epemeral);
 
     void delete(String path);
 

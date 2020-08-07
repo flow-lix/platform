@@ -2,6 +2,7 @@ package learn.platform.registry.support;
 
 import learn.platform.commons.Resource;
 import learn.platform.commons.url.UrlResource;
+import learn.platform.registry.NotifyListener;
 import learn.platform.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,11 +11,13 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.net.InetSocketAddress;
+import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
 
 import static learn.platform.commons.constants.CommonConstants.APPLICATION_KEY;
 
@@ -29,6 +32,7 @@ public class AbstractRegistry implements Registry {
     private Properties properties;
 
     private Set<Resource> registered = ConcurrentHashMap.newKeySet();
+    private ConcurrentMap<Resource, Set<NotifyListener>> subscribered = new ConcurrentHashMap<>();
 
     public AbstractRegistry(Resource resource) {
         setResource(resource);
@@ -75,13 +79,22 @@ public class AbstractRegistry implements Registry {
 
     }
 
+    /**
+     * 添加到缓存
+     * @param resource
+     * @param listener
+     */
     @Override
-    public void subscribe(String cluster, Object listener) {
-
+    public void subscribe(Resource resource, NotifyListener listener) {
+        Objects.requireNonNull(resource, "resource can't null!");
+        Objects.requireNonNull(listener, "listener can't null!");
+        LOGGER.info("Subscribe url: {}", resource);
+        Set<NotifyListener> listenerSet = subscribered.computeIfAbsent(resource, k -> ConcurrentHashMap.newKeySet());
+        listenerSet.add(listener);
     }
 
     @Override
-    public void unsubscribe(String cluster, Object listener) {
+    public void unsubscribe(Resource resource, NotifyListener listener) {
 
     }
 
@@ -93,5 +106,9 @@ public class AbstractRegistry implements Registry {
     @Override
     public void close() throws Exception {
 
+    }
+
+    public Set<Resource> getRegistered() {
+        return Collections.unmodifiableSet(registered);
     }
 }

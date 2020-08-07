@@ -1,6 +1,5 @@
 package learn.platform.commons.serializer;
 
-import org.springframework.data.redis.serializer.JdkSerializationRedisSerializer;
 
 public class SerializerFactory {
 

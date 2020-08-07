@@ -1,4 +1,4 @@
-package learn.platform.remoting.zookeeper;
+package learn.platform.remoting.zk;
 
 
 public interface StateListener {

@@ -15,6 +15,8 @@ public interface Resource {
      */
     List<String> getClusterAddress();
 
+    String getBackupAddress();
+
     String getParameter(String applicationKey);
 
     /**

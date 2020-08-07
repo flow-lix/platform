@@ -1,9 +1,9 @@
-package learn.platform.remoting.zookeeper;
+package learn.platform.remoting.zk;
 
 import learn.platform.commons.Resource;
 import learn.platform.commons.url.UrlResource;
 
 public interface ZookeeperTransporter {
 
-    ZookeeperClient connect(UrlResource resource);
+    ZookeeperClient connect(Resource resource);
 }

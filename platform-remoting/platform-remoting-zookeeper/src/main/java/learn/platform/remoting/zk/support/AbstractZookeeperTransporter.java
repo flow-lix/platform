@@ -1,9 +1,9 @@
-package learn.platform.remoting.zookeeper.support;
+package learn.platform.remoting.zk.support;
 
 import learn.platform.commons.Resource;
 import learn.platform.commons.url.UrlResource;
-import learn.platform.remoting.zookeeper.ZookeeperClient;
-import learn.platform.remoting.zookeeper.ZookeeperTransporter;
+import learn.platform.remoting.zk.ZookeeperClient;
+import learn.platform.remoting.zk.ZookeeperTransporter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,11 +21,11 @@ public abstract class AbstractZookeeperTransporter implements ZookeeperTransport
     private final ConcurrentMap<String, ZookeeperClient> zookeeperClientMap = new ConcurrentHashMap<>();
 
     @Override
-    public ZookeeperClient connect(UrlResource resource) {
+    public ZookeeperClient connect(Resource resource) {
         String identifyId = resource.getIdentifyId();
         ZookeeperClient zookeeperClient = fetchZookeeperClientCache(identifyId);
         if (zookeeperClient != null) {
-            LOGGER.debug("Find valid zookeeper client from cache for resource: {}", identifyId);
+            LOGGER.debug("Find valid zk client from cache for resource: {}", identifyId);
             return zookeeperClient;
         }
         synchronized (zookeeperClientMap) {
@@ -38,7 +38,7 @@ public abstract class AbstractZookeeperTransporter implements ZookeeperTransport
         return zookeeperClient;
     }
 
-    protected abstract ZookeeperClient createZookeeperClient(UrlResource resource);
+    protected abstract ZookeeperClient createZookeeperClient(Resource resource);
 
     /**
      * 获取客户端连接
@@ -47,7 +47,7 @@ public abstract class AbstractZookeeperTransporter implements ZookeeperTransport
      */
     private ZookeeperClient fetchZookeeperClientCache(String identifyId) {
         ZookeeperClient client = zookeeperClientMap.get(identifyId);
-        return client.isConnected() ? client : null;
+        return (client != null && client.isConnected()) ? client : null;
     }
 
     private void writeToClientMap(List<String> addressList, ZookeeperClient client) {
