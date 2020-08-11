@@ -1,5 +1,7 @@
 package learn.platform.remoting.zk;
 
+import learn.platform.commons.Resource;
+
 import java.util.List;
 
 public interface ZookeeperClient {
@@ -37,4 +39,10 @@ public interface ZookeeperClient {
     String getContent(String path);
 
     void addStateListener(StateListener stateListener);
+
+    List<String> addChildListener(String path, ChildListener childListener);
+
+    void removeChildListener(String path, ChildListener listener);
+
+    void close();
 }

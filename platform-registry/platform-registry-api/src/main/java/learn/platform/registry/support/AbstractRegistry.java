@@ -1,9 +1,9 @@
 package learn.platform.registry.support;
 
 import learn.platform.commons.Resource;
-import learn.platform.commons.url.UrlResource;
 import learn.platform.registry.NotifyListener;
 import learn.platform.registry.Registry;
+import org.apache.commons.collections4.CollectionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +13,7 @@ import java.io.InputStream;
 import java.net.InetSocketAddress;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 import java.util.Properties;
 import java.util.Set;
@@ -25,14 +26,25 @@ public class AbstractRegistry implements Registry {
 
     protected static final Logger LOGGER = LoggerFactory.getLogger(AbstractRegistry.class);
 
-    private Resource registeredResource;
-
     private File backupFile;
 
     private Properties properties;
 
     private Set<Resource> registered = ConcurrentHashMap.newKeySet();
-    private ConcurrentMap<Resource, Set<NotifyListener>> subscribered = new ConcurrentHashMap<>();
+
+    private ConcurrentMap<Resource, Set<NotifyListener>> subscribed = new ConcurrentHashMap<>();
+
+    /**
+     * consumer resource for providers resource
+     */
+    private ConcurrentMap<Resource, List<Resource>> notified = new ConcurrentHashMap<>();
+
+    /**
+     * 本地磁盘缓存文件
+     */
+    private File file;
+
+    private Resource registryResource;
 
     public AbstractRegistry(Resource resource) {
         setResource(resource);
@@ -63,13 +75,13 @@ public class AbstractRegistry implements Registry {
     }
 
     public void setResource(Resource resource) {
-        Objects.requireNonNull(resource, "Resource can't be null!");
-        this.registeredResource = resource;
+        Objects.requireNonNull(resource);
+        this.registryResource = resource;
     }
 
     @Override
     public void register(Resource resource) {
-        Objects.requireNonNull(resource, "Registry resource is null!");
+        Objects.requireNonNull(resource);
         LOGGER.info("Register resource: {}", resource);
         registered.add(resource);
     }
@@ -86,16 +98,48 @@ public class AbstractRegistry implements Registry {
      */
     @Override
     public void subscribe(Resource resource, NotifyListener listener) {
-        Objects.requireNonNull(resource, "resource can't null!");
-        Objects.requireNonNull(listener, "listener can't null!");
+        Objects.requireNonNull(resource);
+        Objects.requireNonNull(listener);
         LOGGER.info("Subscribe url: {}", resource);
-        Set<NotifyListener> listenerSet = subscribered.computeIfAbsent(resource, k -> ConcurrentHashMap.newKeySet());
+        Set<NotifyListener> listenerSet = subscribed.computeIfAbsent(resource, k -> ConcurrentHashMap.newKeySet());
         listenerSet.add(listener);
     }
 
     @Override
     public void unsubscribe(Resource resource, NotifyListener listener) {
+        Objects.requireNonNull(resource);
+        Objects.requireNonNull(listener);
+        Set<NotifyListener> listenerSet = subscribed.get(resource);
+        if (listenerSet != null) {
+            listenerSet.remove(listener);
+        }
+    }
 
+    /**
+     *
+     * @param cResource 一个消费者
+     * @param pResources 多个发布信息
+     * @param notifyListener
+     */
+    protected void notify(Resource cResource, List<Resource> pResources, NotifyListener notifyListener) {
+        Objects.requireNonNull(cResource);
+        Objects.requireNonNull(notifyListener);
+        if (CollectionUtils.isEmpty(pResources)) {
+            LOGGER.warn("Ignore empty notify resource for subscribe resource {}", cResource);
+        }
+        LOGGER.info("Notify resource for subscribe resource {}, providerResource: {}", cResource, pResources);
+
+        notified.put(cResource, pResources);
+
+        // 通知所有发布者
+        notifyListener.notify(pResources);
+        saveProperties();
+    }
+
+    private void saveProperties() {
+        if (file == null) {
+            return;
+        }
     }
 
     @Override
@@ -110,5 +154,20 @@ public class AbstractRegistry implements Registry {
 
     public Set<Resource> getRegistered() {
         return Collections.unmodifiableSet(registered);
+    }
+
+    public String getRegistryAddress() {
+        return registryResource.getBackupAddress();
+    }
+
+    public Resource getRegistryResource() {
+        return registryResource;
+    }
+
+    public Map<Resource, Set<NotifyListener>> getSubscribed() {
+        return Collections.unmodifiableMap(subscribed);
+    }
+
+    public void destroy() {
     }
 }

@@ -4,6 +4,7 @@ import learn.platform.commons.Resource;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.Serializable;
+import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -22,6 +23,8 @@ public class UrlResource implements Resource, Serializable {
 
     private transient volatile String address;
 
+    private transient String fullString;
+
     public UrlResource(String protocol, String username, String password, String host, int port, String path) {
         this.protocol = protocol;
         this.username = username;
@@ -33,6 +36,17 @@ public class UrlResource implements Resource, Serializable {
 
     public static UrlResource valueOf(String link) {
         return URLStrParser.parseDecodedStr(link);
+    }
+
+    public static String encode(String toString) {
+        if (StringUtils.isEmpty(toString)) {
+            return "";
+        }
+        try {
+            return URLEncoder.encode(toString, "UTF-8");
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public String getAddress() {
@@ -77,7 +91,8 @@ public class UrlResource implements Resource, Serializable {
 
     @Override
     public String getParameter(String key, String defaultVal) {
-        return null;
+        Object obj = parameters.get(key);
+        return obj != null ? (String) obj : defaultVal;
     }
 
     @Override
@@ -100,5 +115,44 @@ public class UrlResource implements Resource, Serializable {
     @Override
     public String getInterfaceName() {
         return password;
+    }
+
+    @Override
+    public String toString() {
+        if (fullString != null) {
+            return fullString;
+        }
+        fullString = buildFullString();
+        return fullString;
+    }
+
+    private String buildFullString() {
+        StringBuilder buf = new StringBuilder();
+
+        if (StringUtils.isNotEmpty(protocol)) {
+            buf.append(protocol).append("://");
+        }
+        if (StringUtils.isNotEmpty(username)) {
+            buf.append(username);
+            if (StringUtils.isNotEmpty(password)) {
+                buf.append(":").append(password);
+            }
+            buf.append("@");
+        }
+        String ip = getHost();
+        if (StringUtils.isNotEmpty(ip)) {
+            buf.append(ip);
+            if (port > 0) {
+                buf.append(":").append(port);
+            }
+        }
+        if (StringUtils.isNotEmpty(path)) {
+            buf.append("/").append(path);
+        }
+        return buf.toString();
+    }
+
+    private String getHost() {
+        return host;
     }
 }

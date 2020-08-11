@@ -1,5 +1,7 @@
 package learn.platform.registry;
 
+import learn.platform.commons.Resource;
+
 import java.util.List;
 
 public interface NotifyListener {
@@ -8,5 +10,5 @@ public interface NotifyListener {
      * 当收到服务变化时触发
      * @param urls 注册信息
      */
-    void notify(List<String> urls);
+    void notify(List<Resource> urls);
 }

@@ -31,6 +31,32 @@ public final class URLStrParser {
     }
 
     /**
+     * @param encodedURLStr: after decode format: protocol://username:password@host:port/path?k1=v1&k2=v2
+     *  [protocol://][username:password@][host:port]/[path][?k1=v1&k2=v2]
+     */
+    public static UrlResource parseEncodedStr(String encodedURLStr) {
+        Map<String, Object> parameters = null;
+        int pathEndIdx = encodedURLStr.indexOf("%3F");// '?'
+        if (pathEndIdx >= 0) {
+            parameters = parseEncodedParams(encodedURLStr, pathEndIdx + 3);
+        } else {
+            pathEndIdx = encodedURLStr.length();
+        }
+
+        //decodedBody format: [protocol://][username:password@][host:port]/[path]
+        String decodedBody = decodeComponent(encodedURLStr, 0, pathEndIdx, false, DECODE_TEMP_BUF.get());
+        return parseURLBody(encodedURLStr, decodedBody, parameters);
+    }
+
+    private static Map<String, Object> parseEncodedParams(String encodedURLStr, int i) {
+        return Collections.emptyMap();
+    }
+
+    private static String decodeComponent(String s, int from, int toExcluded, boolean isPath, TempBuf tempBuf) {
+        return "";
+    }
+
+    /**
      * @param decodedURLStr : protocol://username:password@host:port/path?k1=v1&k2=v2
      */
     public static UrlResource parseDecodedStr(String decodedURLStr) {

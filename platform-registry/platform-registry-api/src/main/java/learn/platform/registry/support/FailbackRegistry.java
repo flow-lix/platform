@@ -40,9 +40,19 @@ public abstract class FailbackRegistry extends AbstractRegistry {
     public void subscribe(Resource resource, NotifyListener listener) {
         super.subscribe(resource, listener);
         try {
-            doSubscriber(resource, listener);
+            doSubscribe(resource, listener);
         } catch (Exception e) {
             LOGGER.error("Failed to subscribe {}, cause: {}", resource, e.getMessage(), e);
+        }
+    }
+
+    @Override
+    public void unsubscribe(Resource resource, NotifyListener listener) {
+        super.unsubscribe(resource, listener);
+        try {
+            doUnsubscribe(resource, listener);
+        } catch (Exception e) {
+            LOGGER.error("Failed to unsubscribe " + resource + ", waiting for retry, cause: " + e.getMessage(), e);
         }
     }
 
@@ -50,7 +60,14 @@ public abstract class FailbackRegistry extends AbstractRegistry {
 
     protected abstract void doUnregister(Resource resource);
 
-    protected abstract void doSubscriber(Resource resource, NotifyListener listener);
+    protected abstract void doSubscribe(Resource resource, NotifyListener listener);
+
+    protected abstract void doUnsubscribe(Resource resource, NotifyListener listener);
+
+    @Override
+    public void destroy() {
+        super.destroy();
+    }
 
     @Override
     public String getServiceGroup(String key) {
