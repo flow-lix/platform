@@ -9,22 +9,21 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>learn.platform</groupId>
-    <artifactId>platform-all</artifactId>
+    <groupId>org.fancy</groupId>
+    <artifactId>fancy-rpc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>platform-all</name>
+    <name>fancy-rpc</name>
     <description>Demo project for Spring Boot</description>
     <packaging>pom</packaging>
 
     <modules>
-        <module>platform-commons</module>
-        <module>platform-dao</module>
-        <module>platform-kafka</module>
-        <module>platform-elastic</module>
-        <module>platform-rpc</module>
+        <module>commons</module>
+        <module>rpc</module>
         <module>platform-grpc</module>
-        <module>platform-registry</module>
-        <module>platform-remoting</module>
+        <module>registry</module>
+        <module>remoting</module>
+        <module>config</module>
+        <module>example</module>
     </modules>
 
     <properties>
