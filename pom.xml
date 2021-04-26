@@ -79,7 +79,7 @@
         <slf4j_version>1.7.25</slf4j_version>
         <jcl_version>1.2</jcl_version>
         <logback_version>1.2.2</logback_version>
-        <commons_io_version>2.6</commons_io_version>
+        <commons_io_version>2.7</commons_io_version>
 
         <embedded_redis_version>0.6</embedded_redis_version>
 
